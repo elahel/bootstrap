@@ -152,38 +152,109 @@
             <div class="col-12">
                 <h2>Book Now</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel rerum iste blanditiis obcaecati illum
-                   optio dolorum sed aperiam minima, ipsam, architecto similique voluptatibus sint ullam molestiae
-                   praesentium! Voluptatem, exercitationem expedita.</p>
+                    optio dolorum sed aperiam minima, ipsam, architecto similique voluptatibus sint ullam molestiae
+                    praesentium! Voluptatem, exercitationem expedita.</p>
             </div>
             <div class="col-md">
                 <p>Checkin</p>
                 <button class="btn btn-light rounded-pill ps-5 pe-5">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days-icon lucide-calendar-days"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></svg>16 July 2025
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-calendar-days-icon lucide-calendar-days">
+                        <path d="M8 2v4" />
+                        <path d="M16 2v4" />
+                        <rect width="18" height="18" x="3" y="4" rx="2" />
+                        <path d="M3 10h18" />
+                        <path d="M8 14h.01" />
+                        <path d="M12 14h.01" />
+                        <path d="M16 14h.01" />
+                        <path d="M8 18h.01" />
+                        <path d="M12 18h.01" />
+                        <path d="M16 18h.01" />
+                    </svg>16 July 2025
                 </button>
                 <p>Checkout</p>
                 <button class="btn btn-light rounded-pill ps-5 pe-5">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-days-icon lucide-calendar-days"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></svg>17 July 2025
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-calendar-days-icon lucide-calendar-days">
+                        <path d="M8 2v4" />
+                        <path d="M16 2v4" />
+                        <rect width="18" height="18" x="3" y="4" rx="2" />
+                        <path d="M3 10h18" />
+                        <path d="M8 14h.01" />
+                        <path d="M12 14h.01" />
+                        <path d="M16 14h.01" />
+                        <path d="M8 18h.01" />
+                        <path d="M12 18h.01" />
+                        <path d="M16 18h.01" />
+                    </svg>17 July 2025
                 </button>
             </div>
             <div class="col-md">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d229.4761973144502!2d-45.561912433836184!3d-23.03775161714687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1752676800052!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="big-round"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d229.4761973144502!2d-45.561912433836184!3d-23.03775161714687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1752676800052!5m2!1spt-BR!2sbr"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="big-round"></iframe>
             </div>
         </div>
         <!-- rodapé com formulário -->
-         <footer class="row text-light bg-verde big-round">
-            <div class="col-md">
+        <footer class="row text-light bg-verde big-round mt-3">
+            <div class="col-md p-3">
                 endereços
             </div>
-             <div class="col-md">
+            <div class="col-md p-3">
                 menu simples
             </div>
-             <div class="col-md">
+            <div class="col-md">
                 <!-- cadastro -->
-                 <form action="" method="post">
-                    
-                 </form>
+                <form action="processador.php" class="mt-5 mb-5" method="post">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="idade" class="form-label">Idade</label>
+                        <input type="number" class="form-control" name="idade" max="120" min="0"/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId"
+                            placeholder="abc@mail.com" />
+                    </div>
+                    <p>Gênero:</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="genero" id="genero1" value="Feminino" />
+                        <label class="form-check-label" for="genero1">Feminino</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="genero" id="genero2" value="Masculino" />
+                        <label class="form-check-label" for="genero2">Masculino</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="genero" id="genero3" value="Outros" />
+                        <label class="form-check-label" for="genero3">Outros</label>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="estados" class="form-label">Estados</label>
+                        <select onchange="listarCidades()" class="form-select form-select-lg" name="estados"
+                            id="estados">
+                        </select>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="cidades" class="form-label">Cidades</label>
+                        <select class="form-select form-select-lg" name="cidades" id="cidades">
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem</label>
+                        <textarea class="form-control" name="mensagem" id="mensagem" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-light rounded-pill">Cadastrar</button>
+                </form>
             </div>
-         </footer>
+        </footer>
+
         <!-- final do container -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -195,6 +266,37 @@
 
     <!-- java script interno -->
     <script>
+        (() => {
+            const url = 'https://servicodados.ibge.gov.br/api/v1/localidades/estados'
+            const estados = document.getElementById('estados')
+            let option = '<option>Selecione</option>'
+            fetch(url)
+                .then(obj => obj.json())
+                .then(json => {
+                    for (let i = 0; i < json.length; i++) {
+                        option += `<option value="${json[i].id}">${json[i].nome}</option>`;
+                    }
+                    estados.innerHTML = option;
+                })
+                .catch(erro => alert(erro));
+        })();
+        const listarCidades = ()=>{
+            const estados = document.getElementById('estados');
+            const cidades = document.getElementById('cidades');
+            const estadoSelecionado = estados.value;
+            const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${estadoSelecionado}/municipios`;
+            let options = '<option>Selecione</option>';
+            fetch(url).then(obj => obj.json()).then(json => {
+                for (let i = 0; i < json.length; i++) {
+                    options += `<option value="${json[i].nome}">
+                        ${json[i].nome}
+                        </option>`;
+                }
+                cidades.innerHTML = options;
+            }).catch(erro => alert(erro));
+        }
+
+
     </script>
 </body>
 
