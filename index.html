@@ -211,16 +211,16 @@
                 <form action="https://formspree.io/f/mblklzov" class="mt-5 mb-5" method="post">
                     <div class="mb-3">
                         <label for="nome" class="form-label">Nome</label>
-                        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome" />
+                        <input type="text" class="form-control" name="nome" id="nome" required placeholder="Digite seu nome" />
                     </div>
                     <div class="mb-3">
                         <label for="idade" class="form-label">Idade</label>
-                        <input type="number" class="form-control" name="idade" max="120" min="0"/>
+                        <input type="number" class="form-control" name="idade" max="120" min="0" required />
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId"
-                            placeholder="abc@mail.com" />
+                            placeholder="abc@mail.com" required />
                     </div>
                     <p>Gênero:</p>
                     <div class="form-check form-check-inline">
